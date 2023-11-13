@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.conteneur {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.gros-bloc {
+    background-color: #546394;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.avatar-bloc {
+    width: 48%;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.avatar-bloc img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    height: 75px;
+    width: 150px;
+    color: #edf0f1;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+
+}

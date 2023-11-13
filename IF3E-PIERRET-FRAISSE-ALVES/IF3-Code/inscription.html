@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Création de votre compte</title>
+    <link rel="stylesheet" href="styleinscription.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+
+<body>
+    <form method="post" action="inscription.php">
+        <h1>Inscription</h1>
+        <div class="inputs">
+            <label for="username">Username :</label>
+            <input type="text" name="username" id="username" required="required"><br>
+
+            <label for="prenom">FirstName :</label>
+            <input type="text" id="prenom" name="prenom"><br>
+
+            <label for="nom">Name :</label>
+            <input type="text" id="nom" name="nom"><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="xxxx@xxx.xx" required="required"><br>
+
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password" placeholder="Mot de passe" required="required"><br>
+
+            <label for="birth">Birthdate :</label>
+            <input type="date" id="birth" name="birth"><br>
+
+            <label for="role">Choose your role :</label>
+            <select id="role" name="role">
+                <option value="mineur">Mineur</option>
+                <option value="explorer">Explorer</option>
+                <option value="soigneur">Healeur</option>
+            </select><br>
+
+        </div>
+
+        <p class="connexion">
+        <div align="center" class="inscription"><p>I already have an account</p> <br> <a href="connexionpage.php">Connexion.</a></div>
+        </p>
+        <div align="center">
+            <button type="submit">Inscription</button>
+        </div>
+    </form>
+</body>
+
+</html>
